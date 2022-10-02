@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: rgb(212, 212, 212);
+}
+
+a {
+    font-size: 0.8rem;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.menu-bar {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(212, 212, 212); 
+    border-bottom: 1px solid rgb(63, 63, 63);
+    
+}
+
+.menu {
+    width: 26rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu p {
+    font-family: serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+ul li {
+    margin: 0.4rem;
+    display: inline;
+    color: black;
+}
+
+ul li a {
+    color: black;
+    padding: 0.4rem;
+}
+
+.sign-up ul li a.active {
+    padding: 0.4rem 1.2rem;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+main .hero-section {
+    display: grid;
+    grid-template-columns: 28vw 24vw 24vw 24vw ;
+    grid-template-rows: 100vh 24vw;
+}
+
+main .hero-section .intro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 3rem;
+}
+
+main .hero-section .intro h1 {
+    font-family: serif;
+    font-size: 4rem;
+    width: 28rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+main .hero-section .intro a {
+    padding: 0.6rem 1.2rem;
+    background-color: rgb(98, 0, 255);
+    border-radius: 20px;
+    color: white;
+
+}
+
+main .hero-section .big-picture {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    height: 100%;
+    background-image: url('./images/abc.jpg');
+    background-size: cover;
+    background-position: -14rem 3rem;
+    border: 1px solid rgb(73, 73, 73);
+}
+
+main .hero-section .square {
+    border: 1px solid rgb(73, 73, 73);
+    padding: 2rem;
+    
+}
+
+main .hero-section .square p span {
+    font-size: 6rem;
+}
+
+main .hero-section .square p small {
+    font-size: 2rem;
+}
+
+main .hero-section .div1 {
+    background-color: rgb(212, 212, 212);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+main .hero-section .div2 {
+    color: white;
+    background-color: rgb(98, 0, 255);
+
+}
+
+main .hero-section .div3 {
+    background-color: rgb(212, 212, 212);
+}
+
+main .hero-section .div4 {
+    background-color: rgb(196, 196, 196);
+}
+
+.div1 .reviews {
+    display: flex;
+    align-items: flex-end;
+    padding: 0.4rem 0;
+}
+
+.div1 .reviews .review {
+    margin: -3px;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 2px solid rgb(212, 212, 212);
+    overflow: hidden;
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover;
+}
